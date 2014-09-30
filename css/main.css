@@ -90,6 +90,11 @@ body {
 
   background-color: #000;
   border-radius: 6px;
+  opacity: 0;
+}
+
+.sales__details[data-state="active"] {
+    opacity: 1;
 }
 
 .sales__details::before {
@@ -156,3 +161,5 @@ body {
 
   text-indent: 100%;
 }
+
+
